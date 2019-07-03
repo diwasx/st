@@ -190,8 +190,8 @@ static Shortcut shortcuts[] = {
 	{ ControlMask,          XK_equal,       zoom,           {.f = +1} },
     { ControlMask,          XK_minus,       zoom,           {.f = -1} },
 	{ TERMMOD,              XK_plus,        zoomreset,      {.f =  0} },
-	{ MODKEY,               XK_k,           kscrollup,      {.i =  4} },
-	{ MODKEY,               XK_j,           kscrolldown,    {.i =  4} },
+	{ MODKEY,               XK_k,           kscrollup,      {.i =  20} },
+	{ MODKEY,               XK_j,           kscrolldown,    {.i =  20} },
 	{ ControlMask,          XK_grave,       copyurl,        {.i =  0} },
 };
 
